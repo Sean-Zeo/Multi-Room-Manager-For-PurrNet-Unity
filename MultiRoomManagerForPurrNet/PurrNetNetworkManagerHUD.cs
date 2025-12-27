@@ -32,7 +32,10 @@ public class PurrNetNetworkManagerHUD : MonoBehaviour
 #endif
             GUILayout.BeginHorizontal();
             if (GUILayout.Button("Client"))
+            {
+                SetTransportSettings();
                 InstanceHandler.NetworkManager.StartClient();
+            }
 
             addressInput = GUILayout.TextField(addressInput);
             portInput = GUILayout.TextField(portInput);
