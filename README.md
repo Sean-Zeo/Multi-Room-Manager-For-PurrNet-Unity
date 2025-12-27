@@ -15,6 +15,7 @@ You will also need to change "Active Input Handling" to "Both" or "Input Manager
 - Basic lobby example ( that uses OnGUI ) for creating a room or joining an existing room from the room list  
 - Optional network lobby player spawning while in the lobby scene
 - Auto‑unload of empty rooms and client room‑scene cleanup on disconnect  
-- One server, one port, multiple isolated rooms  
+- One server, one port, multiple isolated rooms
+- PurrNetNetworkManagerHUD.cs bonus
 
 ![Example](Images/thumbnail.jpg)
