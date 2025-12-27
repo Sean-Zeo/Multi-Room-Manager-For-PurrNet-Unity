@@ -6,7 +6,7 @@ Players connect to a lobby and can join or create rooms (with custom name, data 
 Think of this solution as a server authoritive (and free) alternative to Photon.
 This solution follows the KISS design principle (Keep it simple, stupid).
 
-To set up this project's example; set LobbyScene as scene 0 and RoomScene as scene 1 in the build settings scene list.
+In order to set up the example; set "LobbyScene" as scene 0 and "RoomScene" as scene 1 in the build settings scene list.
 You will also need to change "Active Input Handling" to "Both" or "Input Manager (Old)" in the player settings. 
 
 **Features**  
@@ -17,4 +17,4 @@ You will also need to change "Active Input Handling" to "Both" or "Input Manager
 - Auto‑unload of empty rooms and client room‑scene cleanup on disconnect  
 - One server, one port, multiple isolated rooms  
 
-![Example](images/thumbnail.jpg)
+![Example](Images/thumbnail.jpg)
